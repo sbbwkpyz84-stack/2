@@ -196,8 +196,8 @@ caption { text-align: left; font-weight: 700; padding-bottom: .5rem; }
 dialog.proto { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: #fff; color: var(--ink); }
 dialog.proto::backdrop { background: rgba(16, 24, 32, .6); }
 .proto-head { position: sticky; top: 0; display: flex; align-items: center; justify-content: space-between; gap: .5rem; padding: .5rem 1rem; background: var(--brand); color: #fff; }
-.proto-head p { margin: 0; font-weight: 700; }
-.proto-head button { min-width: 44px; min-height: 44px; background: transparent; border: 2px solid #fff; color: #fff; border-radius: 8px; font: inherit; font-weight: 700; cursor: pointer; padding: 0 .8rem; }
+.proto-head p { margin: 0; font-weight: 700; min-width: 0; }
+.proto-head button { flex: none; white-space: nowrap; min-width: 44px; min-height: 44px; background: transparent; border: 2px solid #fff; color: #fff; border-radius: 8px; font: inherit; font-weight: 700; cursor: pointer; padding: 0 .8rem; }
 .proto-body { max-width: 44rem; margin: 0 auto; padding: 1rem; }
 .sample { display: inline-block; background: var(--ink); color: #fff; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; border-radius: 4px; padding: .15rem .5rem; margin-bottom: .5rem; }
 .steckbrief { border: 1px solid var(--line); border-radius: 10px; padding: 1rem; background: #fff; }
